@@ -1,0 +1,55 @@
+# ============ CORE ============
+# Framework para APIs (se quiser expandir)
+Flask>=2.0.0
+Flask-CORS>=3.0.0
+
+# ============ DATABASE ============
+# Conector MySQL (escolha um)
+mysql-connector-python==8.0.33
+# OU
+pymysql==1.0.2
+# OU para SQLAlchemy (ORM)
+SQLAlchemy==1.4.0
+
+# ============ DATA SCIENCE ============
+# Análise básica
+pandas==1.5.0
+numpy==1.23.0
+scipy==1.9.0
+
+# Machine Learning básico
+scikit-learn==1.2.0
+
+# Visualização
+matplotlib==3.6.0
+seaborn==0.12.0
+plotly==5.11.0  # Para gráficos interativos
+
+# ============ RELATÓRIOS ============
+# Geração de PDFs
+reportlab==3.6.0
+fpdf2==2.5.5
+
+# Geração de Excel
+openpyxl==3.0.10
+xlsxwriter==3.0.3
+
+# ============ UTILITÁRIOS ============
+# Manipulação de datas
+python-dateutil==2.8.2
+pytz==2022.6
+
+# Processamento de texto
+python-slugify==6.1.2
+unidecode==1.3.4
+
+# Logging melhorado
+colorlog==6.7.0
+
+# ============ SEGURANÇA ============
+cryptography==38.0.0
+bcrypt==4.0.0
+
+# ============ WEB/API ============
+requests==2.28.0
+beautifulsoup4==4.11.0
